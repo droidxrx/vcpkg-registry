@@ -1,0 +1,19 @@
+{
+	"$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+	"name": "imgui-android",
+	"version-string": "1.0.0",
+	"homepage": "https://github.com/droidxrx/imgui-android",
+	"description": "ImGui For Android",
+	"supports": "android",
+	"dependencies": [
+		{
+			"name": "vcpkg-cmake",
+			"host": true
+		},
+		{
+			"name": "freetype",
+			"version>=": "2.12.1",
+			"platform": "android"
+		}
+	]
+}
