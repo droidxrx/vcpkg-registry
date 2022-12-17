@@ -2,7 +2,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO droidxrx/imgui-android
     REF ${VERSION}
-    SHA512 651bdad8c9f974afaf250f792bdec178aed908109776d8eeb81752f8fefdb17f5ca00aa0cecb6d289b2cff7b8662329dabd563259f025daebbda3cf846254e22
+    SHA512 8ffd6bd752a7caed8a606e21335025a7c43be1fd1a1a06e609a3febfab17cc05a20f682fcf284576c113c994f1a50b58f3aa34c29374ff688cea92d19d0b09ee
     HEAD_REF master
 )
 
