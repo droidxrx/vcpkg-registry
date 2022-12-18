@@ -17,6 +17,11 @@
 #include "imgui-android/imgui_internal.h"
 #include "imgui-android/imgui_impl_android.h"
 #include "imgui-android/imgui_impl_opengl3.h"
+
+#ifdef IMGUI_ANDROID_USE_FREETYPE
+#include "imgui-android/imgui_freetype.h"
+#endif
+
 #include <EGL/egl.h>
 #include <GLES3/gl3.h>
 #include <string>
